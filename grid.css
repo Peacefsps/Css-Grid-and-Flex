@@ -55,3 +55,14 @@
     background-color: blue;
     grid-area: e;
 }
+@media screen and (max-width: 425px) {
+    .grid-container {
+        width: 70%;
+    }
+    .item-one {
+        height: 150px;
+    }
+    .item-three {
+        height: 150px;
+    }
+}
