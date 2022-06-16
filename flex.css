@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header-btn {
+    border-radius: 20px;
+    padding: 16px;
+    border: none;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+}
+.boxes p {
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend Deca";
+    margin-bottom: 56px;
+    line-height: 28px;
+    width: 200px;
+}
+.boxes h1 {
+    color: hsl(0, 0%, 95%);
+    margin-bottom: 28px;
+    font-family: "Big Shoulders";
+}
+.boxes button {
+    border: none;
+    padding: 12px 24px;
+    font-family: "Lexend Deca";
+    border-radius: 32px;
+    background-color: hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+.box-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.boxes img {
+    margin-bottom: 32px;
+}
+.box-one {
+    background-color: hsl(31, 77%, 52%);
+    padding: 28px;
+}
+.box-one button {
+    color: hsl(31, 77%, 52%);
+    border: 1px solid transparent;
+}
+.box-one button:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);
+}
+.box-two {
+    background-color: hsl(184, 100%, 22%);
+    padding: 28px;
+}
+.box-two button {
+    color: hsl(184, 100%, 22%);
+}
+.box-two button:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);
+}
+.box-three {
+    background-color: hsl(179, 100%, 13%);
+    padding: 28px;
+}
+.box-three button {
+    color: hsl(179, 100%, 13%);
+}
+.box-three button:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);
+}
+@media screen and (max-width: 425px) {
+    .box-container {
+        flex-direction: column;
+        padding: 50px;
+    }
+    .boxes {
+        text-align: center;
+    }
+    .boxes p {
+        width: 150px;
+        display: block;
+        margin: 30px auto;
+    }
+    .boxes button {
+        margin-bottom: 20px;
+    }
+    .boxes img {
+        margin-top: 20px;
+    }
+}

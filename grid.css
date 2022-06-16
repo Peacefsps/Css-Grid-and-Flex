@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header-btn {
+    border-radius: 20px;
+    padding: 16px;
+    border: none;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+}
+.grid-container {
+    display: grid;
+    background-color: rgb(26, 28, 40);
+    grid-template-areas: 
+    'a a a b'
+    'c c d d'
+    'c c e e';
+    gap: 10px;
+    padding: 10px 20px;
+    width: 50%;
+    margin: auto;
+}
+.grid-container > div {
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+.item-one {
+    background-color: red;
+    grid-area: a;
+    height: 200px;
+}
+.item-two {
+    background-color: orange;
+    grid-area: b;
+}
+.item-three {
+    background-color: green;
+    grid-area: c;
+    height: 200px;
+}
+.item-four {
+    background-color: blue;
+    grid-area: d;
+}
+.item-five {
+    background-color: blue;
+    grid-area: e;
+}
